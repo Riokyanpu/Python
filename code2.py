@@ -16,3 +16,11 @@ print("<h1>hello world</h1>","<p>世界の皆さん</p>","<b>こんにちは</b>
 print("<h1>hello world</h1>",end="")
 print("<p>世界の皆さん",end="")
 print("<b>こんにちは</b></p>",end="")
+
+
+# coding: utf-8
+# 変数を使う
+player = "戦士"
+print(player + "は、荒野を歩いていた")
+print(player + "、モンスターと戦った")
+print(player + "は、モンスターをたおした")
