@@ -1,5 +1,10 @@
 # coding: utf-8
 
+# 変数の文字列を連結
+player = "勇者"
+print(player + "は、レベルアップした")
+
+
 
 # 1から6のサイコロを作る
 import random
