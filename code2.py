@@ -4,6 +4,8 @@ print("<h1>hello world</h1>")
 print("<p>世界の皆さん")
 print("<b>こんにちは</b></p>")
 
+# 問題
+print("<p>勇者は、荒野を歩いていた</p>")
 #シングルクォーツの場合
 print('''<h1>hello world</h1>
 <p>世界の皆さん

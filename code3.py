@@ -1,4 +1,6 @@
 # coding: utf-8
+
+
 # 1から6のサイコロを作る
 import random
 number = random.randint(1,6)
