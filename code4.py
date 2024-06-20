@@ -9,11 +9,13 @@ else:
 # coding: utf-8
 # if文による条件分岐
 import random
-number = random.randint(1,3) * 100
+number = random.randint(1,5) * 100
 print("あなたの得点は" + str(number) + "ポイントです")
-if number == 300:
+if number == 500:
     print("ok!")
+elif number ==400:
+    print("そこそこ")    
 elif number ==200:
-    print("どちらでもない")    
+    print("どちらでもない")        
 else:
     print("NO") 
