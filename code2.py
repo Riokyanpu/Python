@@ -23,6 +23,11 @@ print("<b>こんにちは</b></p>",end="")
 # coding: utf-8
 # 変数を使う
 player = "戦士"
+player2 = "魔法使い"
 print(player + "は、荒野を歩いていた")
 print(player + "、モンスターと戦った")
 print(player + "は、モンスターをたおした")
+
+print(player2 + "は、荒野を歩いていた")
+print(player2 + "、モンスターと戦った")
+print(player2 + "は、モンスターをたおした")
