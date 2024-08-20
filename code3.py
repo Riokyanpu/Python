@@ -4,7 +4,8 @@
 player = "勇者"
 print(player + "は、レベルアップした")
 
-
+number = 300
+print("スライム" + str(number) + "匹ある")
 
 # 1から6のサイコロを作る
 import random
