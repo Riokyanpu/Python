@@ -7,7 +7,7 @@ print(player + "は、レベルアップした")
 number = 300
 print("スライム" + str(number) + "匹ある")
 
-#1から100までの整数
+#1から100までの整
 import random
 number = random.randint(1,100)
 print("スライム" + str(number) + "匹ある")
@@ -22,7 +22,7 @@ print("サイコロの目は" + str(number) +"です。")
 import random
 number = random.randint(50,99)
 print("モンスターに、" + str(number) + "のダメージを与えた。")
-
+print("敵に、" + str(number) + "のダメージを与えた。")
 # coding: utf-8
 import random
 
