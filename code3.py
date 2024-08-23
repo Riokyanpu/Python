@@ -29,6 +29,11 @@ import random
 # 1から10の間のランダムな匹数を生成する
 number = random.randint(1, 10)  # 匹数 1 ～ 10
 
+# 計算する
+number = (100 + 5 * 4)
+print(number)
+print(number - 70)
+
 # 匹数を表示する
 print("体重100キロのスライムが" + str(number) + "匹あらわれた")
 
