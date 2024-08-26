@@ -34,6 +34,12 @@ number = (100 + 5 * 4)
 print(number)
 print(number - 70)
 
+#値段を計算する
+apple_price = 350	#リンゴの単価
+apple_num = 5	#リンゴを買う数
+print("りんごの単価:" + str(apple_price) + "円")
+print("りんごを買う数:" + str(apple_num) + "個")
+
 # 匹数を表示する
 print("体重100キロのスライムが" + str(number) + "匹あらわれた")
 
