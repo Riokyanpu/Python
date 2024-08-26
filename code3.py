@@ -39,6 +39,8 @@ apple_price = 350	#リンゴの単価
 apple_num = 5	#リンゴを買う数
 print("りんごの単価:" + str(apple_price) + "円")
 print("りんごを買う数:" + str(apple_num) + "個")
+total = apple_price * apple_num
+print("合計金額" + str(total) + "円")
 
 # 匹数を表示する
 print("体重100キロのスライムが" + str(number) + "匹あらわれた")
