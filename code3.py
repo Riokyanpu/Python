@@ -42,6 +42,14 @@ print("りんごを買う数:" + str(apple_num) + "個")
 total = apple_price * apple_num
 print("合計金額" + str(total) + "円")
 
+import random
+grapes_price = random.randint(1,5) * 100	#ぶどうの単価
+grapes_num = random.randint(1,10)	#ぶどうを買う数
+print("ぶどうの単価:" + str(grapes_price) + "円")
+print("ぶどうを買う数:" + str(grapes_num) + "個")
+total = grapes_price * grapes_num
+print("合計金額" + str(total) + "円")
+
 # 匹数を表示する
 print("体重100キロのスライムが" + str(number) + "匹あらわれた")
 
