@@ -69,7 +69,9 @@ print("スライムの合計体重は" + str(total) + "キロです")
 
 # coding: utf-8
 # データの種類
-number = 100 		#数値
-strings = "paiza"	#文字列
+number = 100 + 30		#数値
+strings = "ハロー" + "paiza"	#文字列
 print(number)
 print(strings)
+print(str(number) + strings)
+print(number + 70)
