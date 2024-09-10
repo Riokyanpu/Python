@@ -75,3 +75,18 @@ print(number)
 print(strings)
 print(str(number) + strings)
 print(number + 70)
+
+# 演習
+x = 50
+print(x - 10)
+
+a = "モンスターが"
+b = "あらわれた"
+print(a + b)
+
+'''期待する出力値
+0123456789 '''
+
+a = "01234"
+b = "56789"
+print(a + b)
