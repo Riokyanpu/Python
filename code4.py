@@ -34,3 +34,14 @@ elif number == 2:
     print("Neither") # 条件式2が成立した時の処理(ニーザーどちらでもない)
 else:
 	print( "キライ")	#条件式がどれも成立しなかったときの処理
+
+
+import random
+number = random.randint(1, 5)
+print("あなたの順位は" + str(number) + "位です")
+if number == 1:
+    print("おめでとう")
+elif number == 2:
+    print("あと少し")
+else:
+    print("よくがんばったね")
