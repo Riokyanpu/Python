@@ -45,3 +45,13 @@ elif number == 2:
     print("あと少し")
 else:
     print("よくがんばったね")
+
+# if文による条件分岐　比較演算子
+import random
+time = random.randint(1,24)
+if time < 12:
+	print("午前中")	#条件式が成立したときの処理
+elif time == 12:
+    print("正午!")
+elif time > 12:
+    print("午後!")
