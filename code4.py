@@ -55,3 +55,13 @@ elif time == 12:
     print("正午!")
 elif time > 12:
     print("午後!")
+
+
+import random
+age = random.randint(18, 22)    # ageに、何才かを18~22の範囲でランダムに代入
+text = "飲酒不可"
+if age >= 20:
+    print(str(age) + "才は飲酒可能")
+else:
+    # それ以外だったときの処理
+    print(str(age) + "才は" + text)
