@@ -73,3 +73,11 @@ if place <= 6:
     print("入賞")   # 条件が成り立ったときの処理
 else:
     print("入賞圏外")   # それ以外だったときの処理
+
+import random
+age = random.randint(15, 25)    # ageに、何才かを15~25の範囲でランダムに代入
+print(str(age) + "才", end="")
+if age > 19:
+    print("成人です")	# 条件が成り立ったときの処理
+else:
+    print("未成年です")	# それ以外だったときの処理
