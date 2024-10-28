@@ -81,3 +81,22 @@ if age > 19:
     print("成人です")	# 条件が成り立ったときの処理
 else:
     print("未成年です")	# それ以外だったときの処理
+    
+# おみくじを作る
+# 比較演算子 == > < >= <= !=
+# 大吉  中吉  小吉  凶  大凶
+
+import random
+omikuji = random.randint(1,10)
+print(omikuji)
+
+if omikuji == 1:
+    print("大吉")
+elif omikuji == 2:    
+    print("中吉")
+elif omikuji <= 4: # 3, 4    
+    print("中吉")    
+elif omikuji <= 7: # 5, 6, 7    
+    print("凶")   
+else:             # 8, 9, 10  
+    print("大凶")
