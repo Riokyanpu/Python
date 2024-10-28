@@ -1,8 +1,17 @@
+#＃02:Pythonでプログラムを書いてみよう
 # coding: utf-8
 # hello worldと表示する
-#プログラミングでは、「print」のような関数で、コンピュータに対して動作を指示していきます。
-# 「print」と書くと、文字を表示するのだなとPythonが理解
-print("holle world") #文字を表示
+print("はじめました")
+print("hello paizaラーニング")
+print("ハロー、paizaラーニング")
+
+#03:コメントでプログラムを見やすく！
+# コメントを入力する
+print("hello world1") #文字を表示(良いコメント書き方)
 '''
-print("holle world") #この間は表示されない（シングルクォーツ）
-''' 
+print("hello world2")
+print("hello world3")
+'''
+#複数の行をコメントアウトするときは
+#3つの連続したシングルクォートで囲む
+
