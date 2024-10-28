@@ -5,4 +5,4 @@
 print("holle world") #文字を表示
 '''
 print("holle world") #この間は表示されない（シングルクォーツ）
-'''
+''' 
