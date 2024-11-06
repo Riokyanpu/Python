@@ -88,3 +88,31 @@ b = 5678
 number = (a + b) * 3
 print(number)
 
+
+#08:値段を計算してみよう
+# coding: utf-8
+#値段を計算する
+import random
+apple_price = random.randint(1,5) * 100	#リンゴの単価
+apple_num = random.randint(1,10)	#リンゴを買う数
+print ("りんごの単価 : " + str(apple_price) + "円")
+print("りんごの買う数 : " + str(apple_num) + "個")
+total = apple_price * apple_num
+print("合計金額 : " + str(total) + "円")
+
+# 演習課題「スライムの合計体重を出力！」
+
+import random
+number = random.randint(1, 10)	# 匹数 1 ～ 10
+print("体重100キロのスライムが" + str(number) + "匹あらわれた")
+total = number * 100
+print("スライムの合計体重は" + str(total) + "キロです")
+
+#09:データの型を覚えよう
+# データの種類
+number = 100 + 30		#数値
+strings = "ハロー" + "paiza"	#文字列
+print(number)
+print(strings)
+print(str(number) + strings)
+print(number + 30)
