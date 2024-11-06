@@ -116,3 +116,16 @@ print(number)
 print(strings)
 print(str(number) + strings)
 print(number + 30)
+
+#「エラー箇所を正しく修正しよう Vol.1~3」
+
+x = 50
+print(x - 10)
+
+a = "モンスターが"
+b = "あらわれた"
+print(a + b)
+
+a = "01234"
+b = "56789"
+print(a + b)
